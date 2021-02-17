@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Recommendation</title>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css"> -->
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<div class="user">
+        <h1 class="user__title">Book Recommendation based on your goodreads library<h2>
+	<form class="form">
+	    <fieldset>
+			<div class="form__group">
+			<input placeholder="E-mail" class="form__input" type="email" id="email" name="email"><br>
+			</div>
+			<div class="form__group">
+			<input type="url" class="form__input" id="account" name="account" placeholder='Goodreads (Profile) Account URL'></br>
+			</div>
+			<button id="success" type="button" class="btn">Join List</button>
+		</fieldset>
+	</form>
+	<div class="loader" id ='load'></div>
+	</div>
+    </body>
+	<script  src="script.js"></script>
+</html>
