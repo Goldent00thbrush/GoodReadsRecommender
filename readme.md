@@ -23,7 +23,7 @@ The backend is currently not hosted.
 ## Features/Components 
 -	A Good Reads web scrapper
 o	Uses the selenium package along with the chrome driver to scrape the scrollable Good Reads library. 
--	A What Should I read next
+-	A What Should I read next web scrapper.
 -	A SMTP server 
 ## Status 
 The project is done. It took around 16 hours to develop (4 hours per week for 4 weeks).
